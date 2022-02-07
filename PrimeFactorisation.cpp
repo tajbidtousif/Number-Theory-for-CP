@@ -8,7 +8,7 @@ int main()
 
     vector <int> prime_factorial;
 
-    for(int i =2; i<=n; i++)
+    for(int i =2; i*i<=n; i++)
     {
         while(n%i == 0)
         {
